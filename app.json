@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Cap Vert",
+    "slug": "CapVert",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-simple.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "platforms": [
+      "android"
+    ],
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDkguNiokszlDRbLMuWN_awfkpCFyOGI_Y"
+        }
+      },
+      "permissions": [
+        "CAMERA_ROLL",
+        "READ_EXTERNAL_STORAGE",
+        "LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-simple.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.jimmysbox.CapVert"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.jimmysbox.CapVert",
+      "supportsTablet": true 
+    }
+  }
+}

@@ -1,0 +1,3 @@
+GET https://nominatim.openstreetmap.org/search?street=175+route+de+toulouse&postalcode=31620&city=villeneuve-les-bouloc&format=json
+
+
